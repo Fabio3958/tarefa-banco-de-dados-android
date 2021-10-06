@@ -53,7 +53,7 @@ public class DetailsActivity extends AppCompatActivity {
 
     public void voltar(View view) {
         Intent i = new Intent(this,
-                br.uniso.tarefabanco.MainActivity.class);
+                com.evangelista.androidbanco.MainActivity.class);
         startActivity(i);
     }
 
